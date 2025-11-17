@@ -93,23 +93,6 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 // =====================
-// Parallax Effect on Hero
-// =====================
-
-document.addEventListener('DOMContentLoaded', () => {
-    const heroCircle = document.querySelector('.hero-circle');
-
-    if (heroCircle) {
-        window.addEventListener('scroll', () => {
-            const scrolled = window.pageYOffset;
-            const rate = scrolled * 0.3;
-
-            heroCircle.style.transform = `translate(-50%, calc(-50% + ${rate}px))`;
-        });
-    }
-});
-
-// =====================
 // Accessibility: Skip to Content
 // =====================
 
